@@ -1,6 +1,6 @@
 import cv2
 import matplotlib.pyplot as plt
-from roi_alt import roi_extractors
+from roi_alt import roi_dilb
 from tkinter import filedialog
 import os
 
