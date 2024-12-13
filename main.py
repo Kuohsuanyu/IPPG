@@ -16,7 +16,7 @@ def main():
 
     try:
         # 抓取 ROI 和生成示意圖
-        df, roi_image = roi_extractors.extract_roi_dlib_with_visualization(video_file)
+        df, roi_image = roi_dilb.extract_roi_dlib_with_visualization(video_file)
         
         # 顯示 ROI 示意圖
         plt.figure("ROI 定位示意圖")
